@@ -26,15 +26,12 @@ function IGAddRecipesToExistingPlayers(id, player)
         player:learnRecipe("IGWindshield1")
         player:learnRecipe("IGWindshield2")
         player:learnRecipe("IGWindshield3")
-
         player:learnRecipe("IGRearWindshield1")
         player:learnRecipe("IGRearWindshield2")
         player:learnRecipe("IGRearWindshield3")
-
         player:learnRecipe("IGFrontWindow1")
         player:learnRecipe("IGFrontWindow2")
         player:learnRecipe("IGFrontWindow3")
-
         player:learnRecipe("IGRearWindow1")
         player:learnRecipe("IGRearWindow2")
         player:learnRecipe("IGRearWindow3")
