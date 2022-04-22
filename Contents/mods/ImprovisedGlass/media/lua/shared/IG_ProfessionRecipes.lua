@@ -22,7 +22,7 @@ function IGAddRecipesToExistingPlayers(id, player)
     end   
 
     -- Adjust Mechanics with Windows by Default
-    if profession == "mechanic" then
+    if profession == "mechanics" then
         player:learnRecipe("IGWindshield1")
         player:learnRecipe("IGWindshield2")
         player:learnRecipe("IGWindshield3")
@@ -38,6 +38,13 @@ function IGAddRecipesToExistingPlayers(id, player)
         player:learnRecipe("IGRearWindow1")
         player:learnRecipe("IGRearWindow2")
         player:learnRecipe("IGRearWindow3")
+    end
+
+    -- Construction worker knows how to smelt glass
+    if profession == "constructionworker" then
+        player:learnRecipe("IGPrepareGlassShards")
+        player:learnRecipe("IGUnprepareGlassShards")
+        player:learnRecipe("IGRemoveGlassPane")
     end
 end
 
