@@ -1,0 +1,47 @@
+module ImprovisedGlass {
+    imports {
+        Base
+    }
+
+
+    recipe IGSmashGlassJar {
+        keep Hammer,
+        BeerEmpty/WineEmpty2/WhiskeyEmpty/WineEmpty/RemouladeEmpty/EmptyJar=2,
+        Result: Moveables.brokenglass_1_0,
+        Time: 45.0,
+        AnimMode: BuildLow,
+        Prop1: Hammer,
+        Sound: RemoveBrokenGlass,
+    }
+
+    recipe IGSmashGlassPane {
+        keep Hammer,
+        ImprovisedGlass.GlassPane,
+        Result: Moveables.brokenglass_1_0,
+        Time: 90.0,
+        AnimNode: BuildLow,
+        Prop1: Hammer,
+        Sound: RemoveBrokenGlass,
+    }
+
+    recipe IGSmashWindshield {
+        keep Hammer,
+        Windshield1/Windshield2/Windshield3/RearWindshield1/RearWindshield2/RearWindshield3,
+        Result: Moveables.brokenglass_1_0=2,
+        Time: 90.0,
+        AnimMode: BuildLow,
+        Prop1: Hammer,
+        Sound: RemoveBrokenGlass,
+    }
+
+    recipe IGSmashWindows {
+        keep Hammer,
+        FrontWindow1/FrontWindow2/FrontWindow3/RearWindow1/RearWindow2/RearWindow3,
+        Result: Moveables.brokenglass_1_0,
+        Time: 90.0,
+        AnimMode: BuildLow,
+        Prop1: Hammer,
+        Sound: RemoveBrokenGlass,
+    }
+
+}

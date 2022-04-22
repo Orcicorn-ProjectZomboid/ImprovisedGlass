@@ -1,0 +1,31 @@
+module ImprovisedGlass {
+    imports {
+        Base
+    }
+
+    recipe IGPrepareGlassShards {
+        RoastingPan,
+        Moveables.brokenglass_1_0/Moveables.brokenglass_1_1/Moveables.brokenglass_1_2/Moveables.brokenglass_1_3,
+        Result: ImprovisedGlass.PanWithGlassShards,
+        Time: 10.0,
+        NeedToBeLearn: True,
+    }
+
+    recipe IGUnprepareGlassShards {
+        ImprovisedGlass.PanWithGlassShards,
+        Time: 10.0,
+        Result: Moveables.brokenglass_1_0,
+        OnCreate: ImprovisedGlass_GiveBackRoastingPan,
+        NeedToBeLearn: True,
+    }
+
+    recipe IGRemoveGlassPane {
+        ImprovisedGlass.PanWithGlassPane,
+        Time: 30.0,
+        Result: ImprovisedGlass.GlassPane,
+        OnCreate: ImprovisedGlass_GiveBackRoastingPan,
+        Sound:EmptyPan,
+        NeedToBeLearn: True,
+    }
+
+}

@@ -1,0 +1,6 @@
+version=1
+id=
+title=Improvised Glass
+description=Make Glass, Windows and Windshields
+tags=Build 41;Building
+visibility=friendsOnly

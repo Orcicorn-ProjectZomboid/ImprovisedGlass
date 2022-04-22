@@ -1,0 +1,37 @@
+module ImprovisedGlass {
+    imports {
+        Base
+    }
+
+    item PanWithGlassShards {
+        weight = 1.5,
+        Type = Food,
+        DisplayName = Roasting pan with glass shards,
+        DisplayCategory = Material,
+        Icon = PanWithGlassShards,
+        WorldStaticModel = ImprovisedGlass.RoastingPanWithGlassShards,
+        IsCookable = true,
+        MinutesToCook = 90,
+        MinutesToBurn = 900,
+        ReplaceOnCooked = ImprovisedGlass.PanWithGlassPane,
+    }
+
+    item PanWithGlassPane {
+        weight = 1.5,
+        Type = Normal,
+        DisplayName = Roasting pan with glass pane,
+        Icon = PanWithGlassPane,
+        DisplayCategory = Material,
+        WorldStaticModel = ImprovisedGlass.RoastingPanWithGlassPane,
+    }
+
+    item GlassPane {
+        weight = 1.0,
+        Type = Normal,
+        DisplayName = Glass pane,
+        Icon = GlassPane,
+        DisplayCategory = Material,
+        WorldStaticModel = ImprovisedGlass.GlassPane,
+    }
+
+}

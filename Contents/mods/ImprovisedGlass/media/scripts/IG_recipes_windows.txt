@@ -1,0 +1,98 @@
+module ImprovisedGlass {
+    imports {
+        Base
+    }
+
+    recipe IGMakeWindow01 {
+        keep Hammer,
+        keep Saw/GardenSaw,
+        Plank=6,
+        Nails=8,
+        ImprovisedGlass.GlassPane,
+        Result: Moveables.fixtures_windows_01_0,
+        Time: 120.0,
+        NeedToBeLearn: True,
+        Category: Windows,
+        AnimNode: BuildLow,
+        Prop1: Hammer,
+        Sound: Hammering,
+    }
+
+    recipe IGMakeWindow02 {
+        keep Hammer,
+        keep Saw/GardenSaw,
+        Plank=6,
+        Nails=14,
+        PaintWhite,
+        ImprovisedGlass.GlassPane,
+        Result: Moveables.fixtures_windows_01_8,
+        Time: 120.0,
+        NeedToBeLearn: True,
+        Category: Windows,
+        AnimNode: BuildLow,
+        Prop1: Hammer,
+        Sound: Hammering,
+    }
+
+    recipe IGMakeWindow03 {
+        keep Hammer,
+        keep Saw/GardenSaw,
+        Plank=6,
+        Nails=14,
+        ImprovisedGlass.GlassPane,
+        Result: Moveables.fixtures_windows_01_16,
+        Time: 120.0,
+        NeedToBeLearn: True,
+        Category: Windows,
+        AnimNode: BuildLow,
+        Prop1: Hammer,
+        Sound: Hammering,
+    }
+
+    recipe IGMakeWindow04 {
+        keep Hammer,
+        keep Saw/GardenSaw,
+        Plank=5,
+        Nails=6,
+        PaintWhite,
+        ImprovisedGlass.GlassPane,
+        Result: Moveables.fixtures_windows_01_24,
+        Time: 120.0,
+        NeedToBeLearn: True,
+        Category: Windows,
+        AnimNode: BuildLow,
+        Prop1: Hammer,
+        Sound: Hammering,
+    }
+
+    recipe IGMakeWindow05 {
+        keep BlowTorch=6,
+        keep Saw/GardenSaw,
+        WeldingRods=6,
+        MetalBar=5,
+        ImprovisedGlass.GlassPane,
+        Result: Moveables.fixtures_windows_01_32,
+        Time: 120.0,
+        NeedToBeLearn: True,
+        Category: Windows,
+        AnimNode: BlowTorchFloor,
+        Prop1: Blowtorch,
+        Sound: BlowTorch,
+    }
+
+    recipe IGMakeWindow06 {
+        keep Hammer,
+        keep Saw/GardenSaw,
+        Plank=5,
+        Nails=6,
+        ImprovisedGlass.GlassPane,
+        Result: Moveables.fixtures_windows_01_56,
+        Time: 120.0,
+        NeedToBeLearn: True,
+        Category: Windows,
+        AnimNode: BuildLow,
+        Prop1: Hammer,
+        Sound: Hammering,
+    }
+
+}
