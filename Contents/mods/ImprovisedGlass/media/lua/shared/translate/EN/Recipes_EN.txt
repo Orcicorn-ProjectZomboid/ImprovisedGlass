@@ -18,6 +18,14 @@ Recipe_EN = {
     Recipe_IGMakeWindow05 = "Make Chrome Window",
     Recipe_IGMakeWindow06 = "Make Slider Window",
 
+    /* Window Disassembly Recipes */
+    Recipe_IGDisassembleWindow01 = "Disassemble Wooden Window",
+    Recipe_IGDisassembleWindow02 = "Disassemble White Tiled Window",
+    Recipe_IGDisassembleWindow03 = "Disassemble Tiled Window",
+    Recipe_IGDisassembleWindow04 = "Disassemble White Window",
+    Recipe_IGDisassembleWindow05 = "Disassemble Chrome Window",
+    Recipe_IGDisassembleWindow06 = "Disassemble Slider Window",
+
     /* Vehicle: Standard Recipes */
     Recipe_IGWindshield1 = "Make Standard Windshield",
     Recipe_IGRearWindshield1 = "Make Standard Rear Windshield",

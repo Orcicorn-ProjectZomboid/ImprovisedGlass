@@ -1,0 +1,102 @@
+module ImprovisedGlass {
+    imports {
+        Base
+    }
+
+    recipe IGDisassembleWindow01 {
+        keep Hammer,
+        keep Saw/GardenSaw,
+        Moveables.fixtures_windows_01_0,
+        Result: Plank,
+        OnCreate: ImprovisedGlass_GiveBackGlassPane,
+        OnGiveXP: ImprovisedGlass_XPDestroyWindowWood,
+        SkillRequired:Carpentry=2,
+        Time: 120.0,
+        Category: Windows,
+        AnimNode: SawLog,
+        Prop1: GardenSaw,
+        Prop2: Plank,
+        Sound:Sawing,
+    }
+
+    recipe IGDisassembleWindow02 {
+        keep Hammer,
+        keep Saw/GardenSaw,
+        Moveables.fixtures_windows_01_8,
+        Result: Plank,
+        OnCreate: ImprovisedGlass_GiveBackGlassPane,
+        OnGiveXP: ImprovisedGlass_XPDestroyWindowWood,
+        SkillRequired:Carpentry=2,
+        Time: 120.0,
+        Category: Windows,
+        AnimNode: SawLog,
+        Prop1: GardenSaw,
+        Prop2: Plank,
+        Sound:Sawing,,
+    }
+
+    recipe IGDisassembleWindow03 {
+        keep Hammer,
+        keep Saw/GardenSaw,
+        Moveables.fixtures_windows_01_16,
+        Result: Plank,
+        OnCreate: ImprovisedGlass_GiveBackGlassPane,
+        OnGiveXP: ImprovisedGlass_XPDestroyWindowWood,
+        SkillRequired:Carpentry=2,
+        Time: 120.0,
+        Category: Windows,
+        AnimNode: SawLog,
+        Prop1: GardenSaw,
+        Prop2: Plank,
+        Sound:Sawing,
+    }
+
+    recipe IGDisassembleWindow04 {
+        keep Hammer,
+        keep Saw/GardenSaw,
+        Moveables.fixtures_windows_01_24,
+        Result: Plank,
+        OnCreate: ImprovisedGlass_GiveBackGlassPane,
+        OnGiveXP: ImprovisedGlass_XPDestroyWindowWood,
+        SkillRequired:Carpentry=2,
+        Time: 120.0,
+        Category: Windows,
+        AnimNode: SawLog,
+        Prop1: GardenSaw,
+        Prop2: Plank,
+        Sound:Sawing,
+    }
+
+    recipe IGDisassembleWindow05 {
+        keep BlowTorch,
+        keep WeldingMask,
+        Moveables.fixtures_windows_01_32,
+        Result: MetalBar,
+        OnCreate: ImprovisedGlass_GiveBackGlassPane,
+        OnGiveXP: ImprovisedGlass_XPDestroyWindowMetal,
+        SkillRequired:MetalWelding=2,
+        Time: 120.0,
+        Category: Windows,
+        AnimNode: BlowTorchFloor,
+        Prop1: Blowtorch,
+        Prop2: MetalBar,
+        Sound: BlowTorch,
+    }
+
+    recipe IGDisassembleWindow06 {
+        keep Hammer,
+        keep Saw/GardenSaw,
+        Moveables.fixtures_windows_01_56,
+        Result: Plank,
+        OnCreate: ImprovisedGlass_GiveBackGlassPane,
+        OnGiveXP: ImprovisedGlass_XPDestroyWindowWood,
+        SkillRequired:Carpentry=2,
+        Time: 120.0,
+        Category: Windows,
+        AnimNode: SawLog,
+        Prop1: GardenSaw,
+        Prop2: Plank,
+        Sound:Sawing,
+    }
+
+}
