@@ -6,8 +6,8 @@ module ImprovisedGlass {
     recipe IGMakeWindow01 {
         keep Hammer,
         keep Saw/GardenSaw,
-        Plank=6,
-        Nails=8,
+        Plank=2,
+        Nails=6,
         ImprovisedGlass.GlassPane,
         Result: Moveables.fixtures_windows_01_0,
         SkillRequired:Carpentry=2,
@@ -22,8 +22,8 @@ module ImprovisedGlass {
     recipe IGMakeWindow02 {
         keep Hammer,
         keep Saw/GardenSaw,
-        Plank=6,
-        Nails=14,
+        Plank=2,
+        Nails=6,
         PaintWhite,
         ImprovisedGlass.GlassPane,
         Result: Moveables.fixtures_windows_01_8,
@@ -39,8 +39,8 @@ module ImprovisedGlass {
     recipe IGMakeWindow03 {
         keep Hammer,
         keep Saw/GardenSaw,
-        Plank=6,
-        Nails=14,
+        Plank=2,
+        Nails=6,
         ImprovisedGlass.GlassPane,
         Result: Moveables.fixtures_windows_01_16,
         SkillRequired:Carpentry=2,
@@ -55,7 +55,7 @@ module ImprovisedGlass {
     recipe IGMakeWindow04 {
         keep Hammer,
         keep Saw/GardenSaw,
-        Plank=5,
+        Plank=2,
         Nails=6,
         PaintWhite,
         ImprovisedGlass.GlassPane,
@@ -72,8 +72,8 @@ module ImprovisedGlass {
     recipe IGMakeWindow05 {
         keep BlowTorch=6,
         keep Saw/GardenSaw,
-        WeldingRods=6,
-        MetalBar=5,
+        WeldingRods=4,
+        MetalBar=2,
         ImprovisedGlass.GlassPane,
         Result: Moveables.fixtures_windows_01_32,
         SkillRequired:Carpentry=2,
@@ -88,7 +88,7 @@ module ImprovisedGlass {
     recipe IGMakeWindow06 {
         keep Hammer,
         keep Saw/GardenSaw,
-        Plank=5,
+        Plank=2,
         Nails=6,
         ImprovisedGlass.GlassPane,
         Result: Moveables.fixtures_windows_01_56,
