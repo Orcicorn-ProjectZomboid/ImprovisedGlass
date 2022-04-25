@@ -17,7 +17,6 @@ function IGAddRecipesToExistingPlayers(id, player)
         player:learnRecipe("IGMakeWindow02");
         player:learnRecipe("IGMakeWindow03");
         player:learnRecipe("IGMakeWindow04");
-        player:learnRecipe("IGMakeWindow05");
         player:learnRecipe("IGMakeWindow06");
     end   
 
@@ -35,6 +34,11 @@ function IGAddRecipesToExistingPlayers(id, player)
         player:learnRecipe("IGRearWindow1")
         player:learnRecipe("IGRearWindow2")
         player:learnRecipe("IGRearWindow3")
+    end
+
+     -- Adjust Metalworkers with Metal Windows by Default
+     if profession == "metalworker" then
+        player:learnRecipe("IGMakeWindow05");
     end
 
     -- Construction worker knows how to smelt glass
