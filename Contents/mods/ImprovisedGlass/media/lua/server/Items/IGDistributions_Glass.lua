@@ -11,12 +11,16 @@ table.insert(ProceduralDistributions.list["CarWindows2"].items, "ImprovisedGlass
 table.insert(ProceduralDistributions.list["CarWindows2"].items, 5);
 table.insert(ProceduralDistributions.list["CarWindows3"].items, "ImprovisedGlass.GlassPane");
 table.insert(ProceduralDistributions.list["CarWindows3"].items, 5);
+table.insert(ProceduralDistributions.list["CrateCarpentry"].items, "ImprovisedGlass.GlassPane");
+table.insert(ProceduralDistributions.list["CrateCarpentry"].items, 5);
 table.insert(ProceduralDistributions.list["CrateMechanics"].items, "ImprovisedGlass.GlassPane");
 table.insert(ProceduralDistributions.list["CrateMechanics"].items, 10);
+table.insert(ProceduralDistributions.list["CrateMetalwork"].items, "ImprovisedGlass.GlassPane");
+table.insert(ProceduralDistributions.list["CrateMetalwork"].items, 3);
 table.insert(ProceduralDistributions.list["CratePlaster"].items, "ImprovisedGlass.GlassPane");
 table.insert(ProceduralDistributions.list["CratePlaster"].items, 8);
 table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, "ImprovisedGlass.GlassPane");
-table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.8);
+table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 1);
 table.insert(ProceduralDistributions.list["CrateTools"].items, "ImprovisedGlass.GlassPane");
 table.insert(ProceduralDistributions.list["CrateTools"].items, 1);
 table.insert(ProceduralDistributions.list["EngineerTools"].items, "ImprovisedGlass.GlassPane");
@@ -25,6 +29,8 @@ table.insert(ProceduralDistributions.list["GarageCarpentry"].items, "ImprovisedG
 table.insert(ProceduralDistributions.list["GarageCarpentry"].items, 2);
 table.insert(ProceduralDistributions.list["GarageMechanics"].items, "ImprovisedGlass.GlassPane");
 table.insert(ProceduralDistributions.list["GarageMechanics"].items, 1);
+table.insert(ProceduralDistributions.list["GarageMetalwork"].items, "ImprovisedGlass.GlassPane");
+table.insert(ProceduralDistributions.list["GarageMetalwork"].items, 6);
 table.insert(ProceduralDistributions.list["GarageTools"].items, "ImprovisedGlass.GlassPane");
 table.insert(ProceduralDistributions.list["GarageTools"].items, 1);
 table.insert(ProceduralDistributions.list["GigamartTools"].items, "ImprovisedGlass.GlassPane");
