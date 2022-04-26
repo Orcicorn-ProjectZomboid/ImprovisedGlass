@@ -4,6 +4,16 @@ function IGDebug(message)
 end
 
 function ImprovisedGlassRightClick(playerID, context, worldobjects, test)
+    -- Don't do it in Multiplayer
+    -- No matter what we do when we update the window, Multiplayer refuses to recognize
+    -- that the window has changed. It'll function normally until the server restarts and when
+    -- it does restart it'll visually appear functional but act as though it's actually broken
+    -- I don't know how to fix that and after hours of debugging it's just easier to say "No repair in multiplayer"
+    if isServer() or isClient() then
+        IGDebug("Client mode")
+        return
+    end
+
     -- Check if you have a Glass Pane
     local player = getSpecificPlayer(playerID);
     local inventory = player:getInventory();
@@ -47,24 +57,6 @@ end
 function ImprovisedGlassRepairWindow(worldobjects, player, window, glass, glue)
     if luautils.walkAdjWindowOrDoor(player, window:getSquare(), window) then
         ISTimedActionQueue.add(ISRepairWindow:new(player, window, glass, glue))
-    end
-end
-
-
-
-function ImprovisedGlassRepairWindow2(worldobjects, player, window, glass, glue) 
-    if luautils.walkAdjWindowOrDoor(player, window:getSquare(), window) then
-
-        IGDebug("Fixing the window")
-        player:getInventory():Remove(glass)
-        if math.floor(glue:getUsedDelta() - glue:getUseDelta()) <= 0 then
-            IGDebug("Glue is empty, delete")
-            player:getInventory():Remove(glue)
-        else 
-            IGDebug("Removing some glue")
-            glue:setUsedDelta(glue:getUsedDelta()-glue:getUseDelta())
-        end
-        window:setSmashed(false)
     end
 end
 
