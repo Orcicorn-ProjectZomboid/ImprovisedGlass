@@ -32,8 +32,14 @@ function ISRepairWindow:perform()
     else
         self.glue:setUsedDelta(self.glue:getUsedDelta() - self.glue:getUseDelta())
     end
-    self.window:setSmashed(false)
-    ISBaseTimedAction.perform(self)
+	self.window:setSmashed(false)
+	self.window:setPermaLocked(false)
+	self.window:setIsLocked(false)
+	self.character:reportEvent("EventRepairWindowPane");
+	self.window:transmitCompleteItemToClients()
+	self.window:transmitCompleteItemToServer()
+
+	ISBaseTimedAction.perform(self)
 end
 
 function ISRepairWindow:new(character, window, glass, glue)
