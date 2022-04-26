@@ -1,6 +1,6 @@
 
 function IGDebug(message)
-    print("DEBUG: " .. message)
+    -- print("DEBUG: " .. message)
 end
 
 function ImprovisedGlassRightClick(playerID, context, worldobjects, test)
@@ -10,7 +10,7 @@ function ImprovisedGlassRightClick(playerID, context, worldobjects, test)
     -- it does restart it'll visually appear functional but act as though it's actually broken
     -- I don't know how to fix that and after hours of debugging it's just easier to say "No repair in multiplayer"
     if isServer() or isClient() then
-        IGDebug("Client mode")
+        IGDebug("Multiplayer mode")
         return
     end
 
