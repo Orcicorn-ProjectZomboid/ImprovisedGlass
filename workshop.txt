@@ -1,5 +1,5 @@
 version=1
-id=
+id=2800412098
 title=Improvised Glass
 description=You've survived the apocalypse. You've memorized the Wood Time TV Jingle. You've stolen countless cars, survived endless nights and you've scavenged your little heart out and yet, that elusive windshield or home window eludes you. Not anymore! Introducing "[b]Improvised Glass[/b]"
 description=
@@ -32,7 +32,7 @@ description=  [/tr]
 description=[/table]
 description=
 description=[h1]Recipe List[/h1]
-description=An entire directory of the available recipes is listed in the [url=#]pinned discussions thread[/url]
+description=An entire directory of the available recipes is listed in the [url=https://steamcommunity.com/workshop/filedetails/discussion/2800412098/3273564019241681852/]pinned discussions thread[/url]
 description=
 description=[h1]Item IDs[/h1]
 description=[code]
