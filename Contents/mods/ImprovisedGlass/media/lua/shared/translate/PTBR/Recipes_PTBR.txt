@@ -1,0 +1,46 @@
+Recipe_PTBR = {
+    /* Make Glass Recipes */
+    Recipe_IGPrepareGlassShards = "Preparar vidro para derreter",
+    Recipe_IGUnprepareGlassShards = "Remover vidro da panela",
+    Recipe_IGRemoveGlassPane = "Extrair painel de vidro",
+
+    /* Smash Glass Recipes */
+    Recipe_IGSmashGlassJar = "Quebrar em pedaços de vidro",
+    Recipe_IGSmashGlassPane = "Quebrar em pedaços de vidro",
+    Recipe_IGSmashWindshield = "Quebrar em pedaços de vidro",
+    Recipe_IGSmashWindows = "Quebrar em pedaços de vidro",
+
+    /* Window Recipes */
+    Recipe_IGMakeWindow01 = "Fazer Janela de Madeira",
+    Recipe_IGMakeWindow02 = "Fazer Janela de Azulejo Branca",
+    Recipe_IGMakeWindow03 = "Fazer Janela de Azulejo",
+    Recipe_IGMakeWindow04 = "Fazer Janela Branca",
+    Recipe_IGMakeWindow05 = "Fazer Janela Cromada",
+    Recipe_IGMakeWindow06 = "Fazer Janela Deslizante",
+
+    /* Window Disassembly Recipes */
+    Recipe_IGDisassembleWindow01 = "Desmontar Janela de Madeira",
+    Recipe_IGDisassembleWindow02 = "Desmontar Janela de Azulejo Branca",
+    Recipe_IGDisassembleWindow03 = "Desmontar Janela de Azulejo",
+    Recipe_IGDisassembleWindow04 = "Desmontar Janela Branca",
+    Recipe_IGDisassembleWindow05 = "Desmontar Janela Cromada",
+    Recipe_IGDisassembleWindow06 = "Desmontar Janela Deslizante",
+
+    /* Vehicle: Standard Recipes */
+    Recipe_IGWindshield1 = "Fazer Pára-Brisa Padrão",
+    Recipe_IGRearWindshield1 = "Fazer Pára-Brisa Traseiro Padrão",
+    Recipe_IGFrontWindow1 = "Fazer Janela Frontal Padrão",
+    Recipe_IGRearWindow1 = "Fazer Janela Traseira Padrão",
+
+    /* Vehicle: Heavy-Duty Recipes */
+    Recipe_IGWindshield2 = "Fazer Pára-brisa de Serviço Pesado",
+    Recipe_IGRearWindshield2 = "Fazer Para-Brisa Traseiro de Serviço Pesado",
+    Recipe_IGFrontWindow2 = "Fazer Janela Frontal de Serviço Pesado",
+    Recipe_IGRearWindow2 = "Fazer Janela Traseira de Serviço Pesado",
+
+    /* Vehicle: Sport Recipes */
+    Recipe_IGWindshield3 = "Fazer Pára-Brisa Esportivo",
+    Recipe_IGRearWindshield3 = "Fazer Pára-Brisa Esportivo Traseiro",
+    Recipe_IGFrontWindow3 = "Fazer Janela Esportiva Frontal",
+    Recipe_IGRearWindow3 = "Fazer Janela Esportiva Traseira",
+}
