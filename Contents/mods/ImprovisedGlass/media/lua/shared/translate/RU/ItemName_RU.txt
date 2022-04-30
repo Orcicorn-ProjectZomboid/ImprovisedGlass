@@ -1,11 +1,11 @@
 ItemName_RU = {
     /* Glass Items */
-    ItemName_ImprovisedGlass.PanWithGlassShards = "РљР°СЃС‚СЂСЋР»СЏ СЃ РѕСЃРєРѕР»РєР°РјРё СЃС‚РµРєР»Р°",
-    ItemName_ImprovisedGlass.PanWithGlassPane = "РљР°СЃС‚СЂСЋР»СЏ СЃРѕ СЃС‚РµРєР»СЏРЅРЅРѕР№ РїР°РЅРµР»СЊСЋ ",
-    ItemName_ImprovisedGlass.GlassPane = "РЎС‚РµРєР»СЏРЅРЅР°СЏ РїР°РЅРµР»СЊ"
+    ItemName_ImprovisedGlass.PanWithGlassShards = "Кастрюля с осколками стекла",
+    ItemName_ImprovisedGlass.PanWithGlassPane = "Кастрюля со стеклянной панелью ",
+    ItemName_ImprovisedGlass.GlassPane = "Стеклянная панель"
 
     /* Magazines */
-    ItemName_ImprovisedGlass.IGMagazineGlass = "РљСѓС…РѕРЅРЅС‹Рµ РїРµС‡Рё Handyman Corner's",
-    ItemName_ImprovisedGlass.IGMagazineWindow = "Woodtime: Р“РѕР»С‹С€РѕРј РІ РѕРєРЅРµ",
-    ItemName_ImprovisedGlass.IGMagazineCars = "РЎРѕР·РґР°РЅРёРµ РІС‹СЃРѕРєРѕС‚РѕС‡РЅС‹С… Р°РІС‚РѕРјРѕР±РёР»СЊРЅС‹С… РѕРєРѕРЅ",
+    ItemName_ImprovisedGlass.IGMagazineGlass = "Кухонные печи Handyman Corner's",
+    ItemName_ImprovisedGlass.IGMagazineWindow = "Woodtime: Голышом в окне",
+    ItemName_ImprovisedGlass.IGMagazineCars = "Создание высокоточных автомобильных окон",
 }
