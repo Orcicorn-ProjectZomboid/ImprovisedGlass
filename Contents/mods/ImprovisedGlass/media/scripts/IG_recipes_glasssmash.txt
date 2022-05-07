@@ -27,7 +27,7 @@ module ImprovisedGlass {
     recipe IGSmashWindshield {
         keep Hammer,
         Windshield1/Windshield2/Windshield3/RearWindshield1/RearWindshield2/RearWindshield3,
-        Result: Moveables.brokenglass_1_0=2,
+        Result: Moveables.brokenglass_1_0,
         Time: 120.0,
         AnimNode: BuildLow,
         Prop1: Hammer,
