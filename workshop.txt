@@ -78,5 +78,8 @@ description=  [*] Last tested in 41.68
 description=  [*] Works in Single Player and Multiplayer
 description=  [*] Safe to add to existing worlds [i](May need to spawn the magazine)[/i]
 description=[/list]
+description=
+description=[h1]Like what I'm doing?[/h1]
+description=[img]https://i.imgur.com/FTz9Qz9.gif[/img] [url=https://ko-fi.com/orcicorn][img]https://i.imgur.com/JiMht5i.png[/img][/url]
 tags=Build 41;Building
 visibility=public
