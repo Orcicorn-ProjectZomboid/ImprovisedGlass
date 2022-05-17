@@ -1,0 +1,11 @@
+ItemName_PTBR = {
+    /* Glass Items */
+    ItemName_ImprovisedGlass.PanWithGlassShards = "Panela com Cacos de Vidro",
+    ItemName_ImprovisedGlass.PanWithGlassPane = "Panela com Painel de Vidro",
+    ItemName_ImprovisedGlass.GlassPane = "Painel de Vidro"
+
+    /* Magazines */
+    ItemName_ImprovisedGlass.IGMagazineGlass = "Fornos de Canto de Cozinha do Faz-tudo",
+    ItemName_ImprovisedGlass.IGMagazineWindow = "Hora da Carpintaria: Topless na Janela",
+    ItemName_ImprovisedGlass.IGMagazineCars = "Construção Precisa de Janelas de Veículos",
+}

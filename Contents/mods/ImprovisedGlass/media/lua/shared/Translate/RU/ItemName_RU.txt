@@ -1,0 +1,11 @@
+ItemName_RU = {
+    /* Glass Items */
+    ItemName_ImprovisedGlass.PanWithGlassShards = "Кастрюля с осколками стекла",
+    ItemName_ImprovisedGlass.PanWithGlassPane = "Кастрюля со стеклянной панелью ",
+    ItemName_ImprovisedGlass.GlassPane = "Стеклянная панель"
+
+    /* Magazines */
+    ItemName_ImprovisedGlass.IGMagazineGlass = "Кухонные печи Handyman Corner's",
+    ItemName_ImprovisedGlass.IGMagazineWindow = "Woodtime: Голышом в окне",
+    ItemName_ImprovisedGlass.IGMagazineCars = "Создание высокоточных автомобильных окон",
+}
