@@ -1,3 +1,0 @@
-Tooltip_CN = {
-    Tooltip_IGMagazineGlass = "它们会让你觉得很方便",
-}
