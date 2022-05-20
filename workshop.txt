@@ -59,7 +59,7 @@ description=
 description=[hr]
 description=[hr]
 description=[h1]!!! MULTIPLAYER WARNING !!![/h1]
-description=There is a confirmed server bug in build 41.68 where picking up items from an Oven/Microwave causes them to disappear into the void. This is [u]not[/u] a bug with the addon when smelting glass in a pan, it is a bug within the game and I can not fix it.
+description=There is a confirmed server bug in build 41.68+ where picking up items from an Oven/Microwave causes them to disappear into the void. This is [u]not[/u] a bug with the addon when smelting glass in a pan, it is a bug within the game and I can not fix it.
 description=
 description=[b]The work around is quite simple[/b]:
 description=Drag the cooked pan to the floor, then pick it up.  Now the server won't delete it and you're good to go.
@@ -74,7 +74,7 @@ description=Improvised Glass is open-source and published on [url=https://github
 description=
 description=[h1]Tested and Released[/h1]
 description=[list]
-description=  [*] Last tested in 41.68
+description=  [*] Last tested in 41.71
 description=  [*] Works in Single Player and Multiplayer
 description=  [*] Safe to add to existing worlds [i](May need to spawn the magazine)[/i]
 description=[/list]

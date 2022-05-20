@@ -12,30 +12,30 @@ function ImprovisedGlass_GiveBackGlassPane(items, result, player)
 end
 
 -- Grant XP for Wooden Windows
-function ImprovisedGlass_XPMakeWindowWood(recipe, ingredients, result, player)
+function Recipe.OnGiveXP.ImprovisedGlass_XPMakeWindowWood(recipe, ingredients, result, player)
     player:getXp():AddXP(Perks.Woodwork, 10);
 end
-function ImprovisedGlass_XPDestroyWindowWood(recipe, ingredients, result, player)
+function Recipe.OnGiveXP.ImprovisedGlass_XPDestroyWindowWood(recipe, ingredients, result, player)
     player:getXp():AddXP(Perks.Woodwork, 5);
 end
 
 -- Grant XP for Metal Windows
-function ImprovisedGlass_XPMakeWindowMetal(recipe, ingredients, result, player)
+function Recipe.OnGiveXP.ImprovisedGlass_XPMakeWindowMetal(recipe, ingredients, result, player)
     player:getXp():AddXP(Perks.MetalWelding, 10);
 end
-function ImprovisedGlass_XPDestroyWindowMetal(recipe, ingredients, result, player)
+function Recipe.OnGiveXP.ImprovisedGlass_XPDestroyWindowMetal(recipe, ingredients, result, player)
     player:getXp():AddXP(Perks.MetalWelding, 5);
 end
 
 -- Grant XP on Cooking Glass
-function ImprovisedGlass_XPMakeGlass(recipe, ingredients, result, player)
+function Recipe.OnGiveXP.ImprovisedGlass_XPMakeGlass(recipe, ingredients, result, player)
     player:getXp():AddXP(Perks.Cooking, 1);
 end
 
 -- Grant XP for Mechanic Windows
-function ImprovisedGlass_XPMakeWinshieldCar(recipe, ingredients, result, player)
+function Recipe.OnGiveXP.ImprovisedGlass_XPMakeWinshieldCar(recipe, ingredients, result, player)
     player:getXp():AddXP(Perks.Mechanics, 10);
 end
-function ImprovisedGlass_XPMakeWindowCar(recipe, ingredients, result, player)
+function Recipe.OnGiveXP.ImprovisedGlass_XPMakeWindowCar(recipe, ingredients, result, player)
     player:getXp():AddXP(Perks.Mechanics, 5);
 end

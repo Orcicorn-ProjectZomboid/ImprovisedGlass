@@ -24,7 +24,7 @@ module ImprovisedGlass {
         Time: 30.0,
         Result: ImprovisedGlass.GlassPane,
         OnCreate: ImprovisedGlass_GiveBackRoastingPan,
-        OnGiveXP: ImprovisedGlass_XPMakeGlass,
+        OnGiveXP: Recipe.OnGiveXP.ImprovisedGlass_XPMakeGlass,
         Sound:EmptyPan,
         NeedToBeLearn: True,
     }
