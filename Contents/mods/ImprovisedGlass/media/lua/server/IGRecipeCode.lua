@@ -33,7 +33,7 @@ function Recipe.OnGiveXP.ImprovisedGlass_XPMakeGlass(recipe, ingredients, result
 end
 
 -- Grant XP for Mechanic Windows
-function Recipe.OnGiveXP.ImprovisedGlass_XPMakeWinshieldCar(recipe, ingredients, result, player)
+function Recipe.OnGiveXP.ImprovisedGlass_XPMakeWindshieldCar(recipe, ingredients, result, player)
     player:getXp():AddXP(Perks.Mechanics, 10);
 end
 function Recipe.OnGiveXP.ImprovisedGlass_XPMakeWindowCar(recipe, ingredients, result, player)
