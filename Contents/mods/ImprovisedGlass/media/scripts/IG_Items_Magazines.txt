@@ -15,6 +15,7 @@ module ImprovisedGlass {
         DisplayCategory = SkillBook,
         StaticModel = IGMagazine,
         WorldStaticModel = ImprovisedGlass.MagazineGlass,
+        Tooltip = Tooltip_IGMagazineGlass,
     }
 
     /* Window Recipes */

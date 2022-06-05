@@ -1,3 +1,3 @@
 Tooltip_EN = {
-    Tooltip_IGMagazineGlass = "they should at least find you handy",
+    Tooltip_IGMagazineGlass = "...they should at least find you handy",
 }
