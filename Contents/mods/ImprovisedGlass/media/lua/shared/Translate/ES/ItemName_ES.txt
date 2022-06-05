@@ -1,0 +1,11 @@
+ ItemName_ES = {
+    /* Glass Items */
+    ItemName_ImprovisedGlass.PanWithGlassShards = "Sartén con Cristales Rotos",
+    ItemName_ImprovisedGlass.PanWithGlassPane = "Sartén con Panel de Vidrio",
+    ItemName_ImprovisedGlass.GlassPane = "Panel de Vidrio"
+
+    /* Magazines */
+    ItemName_ImprovisedGlass.IGMagazineGlass = "Hornos de Cocina de Handyman Corner",
+    ItemName_ImprovisedGlass.IGMagazineWindow = "Hora de la Carpintería: Topless en la Ventana",
+    ItemName_ImprovisedGlass.IGMagazineCars = "Ventanas para vehículos de Precision y su fabricación",
+} 

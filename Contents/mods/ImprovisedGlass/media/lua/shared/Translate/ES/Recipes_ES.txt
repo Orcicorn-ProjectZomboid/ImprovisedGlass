@@ -1,0 +1,46 @@
+ Recipe_ES = {
+    /* Make Glass Recipes */
+    Recipe_IGPrepareGlassShards = "Preparar el vidrio para la fundición",
+    Recipe_IGUnprepareGlassShards = "Retirar el vidrio de la sartén",
+    Recipe_IGRemoveGlassPane = "Extraer el panel de vidrio",
+
+    /* Smash Glass Recipes */
+    Recipe_IGSmashGlassJar = "Aplastar en cristales rotos",
+    Recipe_IGSmashGlassPane = "Aplastar en cristales rotos",
+    Recipe_IGSmashWindshield = "Aplastar en cristales rotos",
+    Recipe_IGSmashWindows = "Aplastar en cristales rotos",
+
+    /* Window Recipes */
+    Recipe_IGMakeWindow01 = "Fabricar Ventana de Madera",
+    Recipe_IGMakeWindow02 = "Fabricar Ventana de Tablones Blancos",
+    Recipe_IGMakeWindow03 = "Fabricar Ventana de Tablones",
+    Recipe_IGMakeWindow04 = "Fabricar Ventana Blanca",
+    Recipe_IGMakeWindow05 = "Fabricar Ventana Cromada",
+    Recipe_IGMakeWindow06 = "Fabricar Ventana Corredera",
+
+    /* Window Disassembly Recipes */
+    Recipe_IGDisassembleWindow01 = "Desmontar Ventana de Madera",
+    Recipe_IGDisassembleWindow02 = "Desmontar Ventana de Tablones Blancos",
+    Recipe_IGDisassembleWindow03 = "Desmontar Ventana de Tablones",
+    Recipe_IGDisassembleWindow04 = "Desmontar Ventana Blanca",
+    Recipe_IGDisassembleWindow05 = "Desmontar Ventana Cromada",
+    Recipe_IGDisassembleWindow06 = "Desmontar Ventana Corredera",
+
+    /* Vehicle: Standard Recipes */
+    Recipe_IGWindshield1 = "Fabricar Parabrisas Estándar",
+    Recipe_IGRearWindshield1 = "Fabricar Parabrisas Trasero Estándar",
+    Recipe_IGFrontWindow1 = "Fabricar Ventana Delantera Estándar",
+    Recipe_IGRearWindow1 = "Fabricar Ventana Trasera Estándar",
+
+    /* Vehicle: Heavy-Duty Recipes */
+    Recipe_IGWindshield2 = "Fabricar Parabrisas de Alta Resistencia",
+    Recipe_IGRearWindshield2 = "Fabricar Parabrisas Trasero de Alta Resistencia",
+    Recipe_IGFrontWindow2 = "Fabricar Ventana Delantera de Alta Resistencia",
+    Recipe_IGRearWindow2 = "Fabricar Ventana Trasera de Alta Resistencia",
+
+    /* Vehicle: Sport Recipes */
+    Recipe_IGWindshield3 = "Fabricar Parabrisas Deportivo",
+    Recipe_IGRearWindshield3 = "Fabricar Parabrisas Trasero Deportivo",
+    Recipe_IGFrontWindow3 = "Fabricar Ventana Delantera Deportiva",
+    Recipe_IGRearWindow3 = "Fabricar Ventana Delantera Deportiva",
+} 
