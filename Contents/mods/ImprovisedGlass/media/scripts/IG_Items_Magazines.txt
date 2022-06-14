@@ -38,7 +38,7 @@ module ImprovisedGlass {
         DisplayName = precision windows and crafting,
         Icon = IGMagazineCar,
         TeachedRecipes = IGWindshield1;IGWindshield2;IGWindshield3;IGRearWindshield1;IGRearWindshield2;IGRearWindshield3;IGFrontWindow1;IGFrontWindow2;IGFrontWindow3;IGRearWindow1;IGRearWindow2;IGRearWindow3,
-        ReplaceOnUse = IGMagazineCar,
+        ReplaceOnUse = IGMagazineCars,
         DisplayCategory = SkillBook,
         StaticModel = IGMagazine,
         WorldStaticModel = ImprovisedGlass.MagazineCar,
