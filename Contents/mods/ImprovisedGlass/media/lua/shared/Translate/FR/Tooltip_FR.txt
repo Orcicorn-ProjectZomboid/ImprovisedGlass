@@ -1,0 +1,3 @@
+Tooltip_FR = {
+    Tooltip_IGMagazineGlass = "...ils devraient au moins vous trouver habile",
+}

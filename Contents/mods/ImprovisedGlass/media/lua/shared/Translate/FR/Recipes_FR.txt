@@ -1,0 +1,46 @@
+Recipe_FR = {
+    /* Make Glass Recipes */
+    Recipe_IGPrepareGlassShards = "Préparer le verre pour la fusion",
+    Recipe_IGUnprepareGlassShards = "Retirer le verre de l'ustensile de cuisine",
+    Recipe_IGRemoveGlassPane = "Extraire la vitre",
+
+    /* Smash Glass Recipes */
+    Recipe_IGSmashGlassJar = "Réduire en verre brisé",
+    Recipe_IGSmashGlassPane = "Réduire en verre brisé",
+    Recipe_IGSmashWindshield = "Réduire en verre brisé",
+    Recipe_IGSmashWindows = "Réduire en verre brisé",
+
+    /* Window Recipes */
+    Recipe_IGMakeWindow01 = "Fabriquer une Fenêtre en Bois",
+    Recipe_IGMakeWindow02 = "Fabriquer une Fenêtre Carrelée Blanche",
+    Recipe_IGMakeWindow03 = "Fabriquer une Fenêtre Carrelée",
+    Recipe_IGMakeWindow04 = "Fabriquer une Fenêtre Blanche",
+    Recipe_IGMakeWindow05 = "Fabriquer une Fenêtre Chromée",
+    Recipe_IGMakeWindow06 = "Fabriquer une Fenêtre Coulissante",
+
+    /* Window Disassembly Recipes */
+    Recipe_IGDisassembleWindow01 = "Désassembler la Fenêtre en Bois",
+    Recipe_IGDisassembleWindow02 = "Désassembler la Fenêtre Carrelée Blanche",
+    Recipe_IGDisassembleWindow03 = "Désassembler la Fenêtre Carrelée",
+    Recipe_IGDisassembleWindow04 = "Désassembler la Fenêtre Blanche",
+    Recipe_IGDisassembleWindow05 = "Désassembler la Fenêtre Chromée",
+    Recipe_IGDisassembleWindow06 = "Désassembler la Fenêtre Coulissante",
+
+    /* Vehicle: Standard Recipes */
+    Recipe_IGWindshield1 = "Fabriquer un Pare-brise Standard",
+    Recipe_IGRearWindshield1 = "Fabriquer un Pare-brise Arrière Standard",
+    Recipe_IGFrontWindow1 = "Fabriquer une Fenêtre Avant Standard",
+    Recipe_IGRearWindow1 = "Fabriquer une Fenêtre Arrière Standard",
+
+    /* Vehicle: Heavy-Duty Recipes */
+    Recipe_IGWindshield2 = "Fabriquer un Pare-brise Résistant",
+    Recipe_IGRearWindshield2 = "Fabriquer un Pare-brise Arrière Résistant",
+    Recipe_IGFrontWindow2 = "Fabriquer une Fenêtre Avant Résistant",
+    Recipe_IGRearWindow2 = "Fabriquer une Fenêtre Arrière Résistant",
+
+    /* Vehicle: Sport Recipes */
+    Recipe_IGWindshield3 = "Fabriquer un Pare-brise Sport",
+    Recipe_IGRearWindshield3 = "Fabriquer un Pare-brise Arrière Sport",
+    Recipe_IGFrontWindow3 = "Fabriquer une Fenêtre Avant Sport",
+    Recipe_IGRearWindow3 = "Fabriquer une Fenêtre Arrière Sport",
+}
