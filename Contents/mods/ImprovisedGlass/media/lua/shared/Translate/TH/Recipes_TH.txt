@@ -1,0 +1,46 @@
+Recipe_TH = {
+    /* Make Glass Recipes */
+    Recipe_IGPrepareGlassShards = "เตรียมเศษกระจกสำหรับการหลอม",
+    Recipe_IGUnprepareGlassShards = "นำกระจกออกจากกระทะ",
+    Recipe_IGRemoveGlassPane = "แยกบานกระจก",
+
+    /* Smash Glass Recipes */
+    Recipe_IGSmashGlassJar = "ทุบเหยือกแก้ว",
+    Recipe_IGSmashGlassPane = "ทุบกระจก",
+    Recipe_IGSmashWindshield = "ทุบกระจกรถรถ",
+    Recipe_IGSmashWindows = "ทุบหน้าต่าง",
+
+    /* Window Recipes */
+    Recipe_IGMakeWindow01 = "ทำหน้าต่างไม้",
+    Recipe_IGMakeWindow02 = "ทำหน้าต่างกระเบื้องสีขาว",
+    Recipe_IGMakeWindow03 = "ทำหน้าต่างกระเบื้อง",
+    Recipe_IGMakeWindow04 = "ทำหน้าต่างสีขาว",
+    Recipe_IGMakeWindow05 = "ทำหน้าต่างโครเมียม",
+    Recipe_IGMakeWindow06 = "ทำหน้าต่างบานเลื่อน",
+
+    /* Window Disassembly Recipes */
+    Recipe_IGDisassembleWindow01 = "ถอดประกอบหน้าต่างไม้",
+    Recipe_IGDisassembleWindow02 = "ถอดประกอบหน้าต่างกระเบื้องสีขาว",
+    Recipe_IGDisassembleWindow03 = "ถอดประกอบหน้าต่างกระเบื้อง",
+    Recipe_IGDisassembleWindow04 = "ถอดประกอบหน้าต่างสีขาว",
+    Recipe_IGDisassembleWindow05 = "ถอดประกอบหน้าต่างโครเมียม",
+    Recipe_IGDisassembleWindow06 = "ถอดประกอบหน้าต่างบานเลื่อน",
+
+    /* Vehicle: Standard Recipes */
+    Recipe_IGWindshield1 = "ทำกระจกหน้ารถมาตรฐาน",
+    Recipe_IGRearWindshield1 = "ทำกระจกบังลมหลังรถมาตรฐาน",
+    Recipe_IGFrontWindow1 = "ทำหน้าต่างด้านหน้ารถมาตรฐาน",
+    Recipe_IGRearWindow1 = "ทำหน้าต่างด้านหลังรถมาตรฐาน",
+
+    /* Vehicle: Heavy-Duty Recipes */
+    Recipe_IGWindshield2 = "ทำกระจกหน้ารถสำหรับขนของ",
+    Recipe_IGRearWindshield2 = "ทำกระจกบังลมหลังรถสำหรับขนของ",
+    Recipe_IGFrontWindow2 = "ทำหน้าต่างด้านหน้ารถสำหรับขนของ",
+    Recipe_IGRearWindow2 = "ทำหน้าต่างด้านหลังรถสำหรับขนของ",
+
+    /* Vehicle: Sport Recipes */
+    Recipe_IGWindshield3 = "ทำกระจกหน้ารถสปอร์ต",
+    Recipe_IGRearWindshield3 = "ทำกระจกท้ายรถสปอร์ต",
+    Recipe_IGFrontWindow3 = "ทำหน้าต่างด้านหน้ารถสปอร์ต",
+    Recipe_IGRearWindow3 = "ทำหน้าต่างด้านหลังรถสปอร์ต",
+}
