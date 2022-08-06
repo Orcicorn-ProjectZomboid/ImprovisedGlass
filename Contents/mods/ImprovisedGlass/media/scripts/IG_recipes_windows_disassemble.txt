@@ -4,8 +4,8 @@ module ImprovisedGlass {
     }
 
     recipe IGDisassembleWindow01 {
-        keep Hammer,
-        keep Saw/GardenSaw,
+        keep [Recipe.GetItemTypes.Hammer],
+        keep [Recipe.GetItemTypes.Saw],
         Moveables.fixtures_windows_01_0,
         Result: Plank,
         OnCreate: ImprovisedGlass_GiveBackGlassPane,
@@ -20,8 +20,8 @@ module ImprovisedGlass {
     }
 
     recipe IGDisassembleWindow02 {
-        keep Hammer,
-        keep Saw/GardenSaw,
+        keep [Recipe.GetItemTypes.Hammer],
+        keep [Recipe.GetItemTypes.Saw],
         Moveables.fixtures_windows_01_8,
         Result: Plank,
         OnCreate: ImprovisedGlass_GiveBackGlassPane,
@@ -36,8 +36,8 @@ module ImprovisedGlass {
     }
 
     recipe IGDisassembleWindow03 {
-        keep Hammer,
-        keep Saw/GardenSaw,
+        keep [Recipe.GetItemTypes.Hammer],
+        keep [Recipe.GetItemTypes.Saw],
         Moveables.fixtures_windows_01_16,
         Result: Plank,
         OnCreate: ImprovisedGlass_GiveBackGlassPane,
@@ -52,8 +52,8 @@ module ImprovisedGlass {
     }
 
     recipe IGDisassembleWindow04 {
-        keep Hammer,
-        keep Saw/GardenSaw,
+        keep [Recipe.GetItemTypes.Hammer],
+        keep [Recipe.GetItemTypes.Saw],
         Moveables.fixtures_windows_01_24,
         Result: Plank,
         OnCreate: ImprovisedGlass_GiveBackGlassPane,
@@ -84,8 +84,8 @@ module ImprovisedGlass {
     }
 
     recipe IGDisassembleWindow06 {
-        keep Hammer,
-        keep Saw/GardenSaw,
+        keep [Recipe.GetItemTypes.Hammer],
+        keep [Recipe.GetItemTypes.Saw],
         Moveables.fixtures_windows_01_56,
         Result: Plank,
         OnCreate: ImprovisedGlass_GiveBackGlassPane,
