@@ -56,16 +56,6 @@ description=  [*][b]Construction Workers[/b] automatically know how to smelt gla
 description=  [*][b]Engineers[/b] automatically know how to smelt glass shards into panes
 description=[/list]
 description=
-description=[hr]
-description=[hr]
-description=[h1]!!! MULTIPLAYER WARNING !!![/h1]
-description=There is a confirmed server bug in build 41.68+ where picking up items from an Oven/Microwave causes them to disappear into the void. This is [u]not[/u] a bug with the addon when smelting glass in a pan, it is a bug within the game and I can not fix it.
-description=
-description=[b]The work around is quite simple[/b]:
-description=Drag the cooked pan to the floor, then pick it up.  Now the server won't delete it and you're good to go.
-description=
-description=[hr]
-description=[hr]
 description=[h1]Regarding Crafting Windows[/h1]
 description=It is [b]strongly recommended[/b] that you craft then install 1 house window at a time. The game has an issue where when you craft more than you can carry it will automatically drop it on the ground. However, Windows don't have a floor icon or model because they were never intended to be crafted. If you craft more than you can carry you will end up with invisible windows on the ground doing nothing.
 description=
@@ -74,12 +64,16 @@ description=Improvised Glass is open-source and published on [url=https://github
 description=
 description=[h1]Tested and Released[/h1]
 description=[list]
-description=  [*] Last tested in 41.71
-description=  [*] Works in Single Player and Multiplayer
+description=  [*] Last tested in 41.73
+description=  [*] Works in Single Player and Multiplayer*
 description=  [*] Safe to add to existing worlds [i](May need to spawn the magazine)[/i]
 description=[/list]
+description= [i]*Ability to repair windows currently only works in Single player[/i]
+description=
+description=[h1]Translations[/h1]
+description=Improvised Glass is currently supports Brazilian Portugese, Chinese, Spanish, French, Russian and Thai.  [url=https://steamcommunity.com/workshop/filedetails/discussion/2800412098/3273564019241690060/]Contribute additional translations here[/url]
 description=
 description=[h1]Like what I'm doing?[/h1]
 description=[img]https://raw.githubusercontent.com/Orcicorn-ProjectZomboid/.github/master/images/like_favorite.gif[/img] [url=https://ko-fi.com/orcicorn][img]https://raw.githubusercontent.com/Orcicorn-ProjectZomboid/.github/master/images/kofi.png[/img][/url]
-tags=Build 41;Building
+tags=Build 41;Building;Multiplayer
 visibility=public
