@@ -32,12 +32,17 @@ function ISRepairWindow:perform()
     else
         self.glue:setUsedDelta(self.glue:getUsedDelta() - self.glue:getUseDelta())
     end
-	self.window:setSmashed(false)
-	self.window:setPermaLocked(false)
-	self.window:setIsLocked(false)
-	self.character:reportEvent("EventRepairWindowPane");
-	self.window:transmitCompleteItemToClients()
-	self.window:transmitCompleteItemToServer()
+	self.window:setSmashed(false);
+	self.window:setGlassRemoved(true);
+	self.window:setPermaLocked(false);
+	self.window:setIsLocked(false);
+	-- Still can't get this to sync in multiplayer
+	-- self.window:sendObjectChange('state')
+	-- self.character:reportEvent("EventRepairWindowPane");
+	-- if isClient() then
+	-- 	self.window:transmitCompleteItemToServer();
+	-- end
+	-- triggerEvent("OnObjectAdded", self.window)
 
 	ISBaseTimedAction.perform(self)
 end
