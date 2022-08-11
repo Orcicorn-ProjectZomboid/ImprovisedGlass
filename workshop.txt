@@ -59,9 +59,6 @@ description=
 description=[h1]Regarding Crafting Windows[/h1]
 description=It is [b]strongly recommended[/b] that you craft then install 1 house window at a time. The game has an issue where when you craft more than you can carry it will automatically drop it on the ground. However, Windows don't have a floor icon or model because they were never intended to be crafted. If you craft more than you can carry you will end up with invisible windows on the ground doing nothing.
 description=
-description=[h1]Source Code[/h1]
-description=Improvised Glass is open-source and published on [url=https://github.com/Orcicorn-ProjectZomboid/ImprovisedGlass]Github[/url]
-description=
 description=[h1]Tested and Released[/h1]
 description=[list]
 description=  [*] Last tested in 41.73
@@ -72,6 +69,11 @@ description= [i]*Ability to repair windows currently only works in Single player
 description=
 description=[h1]Translations[/h1]
 description=Improvised Glass is currently supports Brazilian Portugese, Chinese, Spanish, French, Russian and Thai.  [url=https://steamcommunity.com/workshop/filedetails/discussion/2800412098/3273564019241690060/]Contribute additional translations here[/url]
+description=
+description=[h1]Source Code[/h1]
+description=Improvised Glass is open-source and published on [url=https://github.com/Orcicorn-ProjectZomboid/ImprovisedGlass]Github[/url]
+description=Repackage, redistribute, recode, whatever, I don't care, do as you please.
+description=Credit would be appreciated.
 description=
 description=[h1]Like what I'm doing?[/h1]
 description=[img]https://raw.githubusercontent.com/Orcicorn-ProjectZomboid/.github/master/images/like_favorite.gif[/img] [url=https://ko-fi.com/orcicorn][img]https://raw.githubusercontent.com/Orcicorn-ProjectZomboid/.github/master/images/kofi.png[/img][/url]
