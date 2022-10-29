@@ -1,11 +1,11 @@
 ItemName_CN = {
     /* Glass Items */
-    ItemName_ImprovisedGlass.PanWithGlassShards = "装有玻璃的熔炉",
-    ItemName_ImprovisedGlass.PanWithGlassPane = "装有玻璃窗格的熔炉",
-    ItemName_ImprovisedGlass.GlassPane = "玻璃窗户"
+    ItemName_ImprovisedGlass.PanWithGlassShards = "装有玻璃碎片的烤盘",
+    ItemName_ImprovisedGlass.PanWithGlassPane = "装有玻璃板的烤盘",
+    ItemName_ImprovisedGlass.GlassPane = "玻璃板"
 
     /* Magazines */
-    ItemName_ImprovisedGlass.IGMagazineGlass = "熔炉技术: 制作窗户入门",
-    ItemName_ImprovisedGlass.IGMagazineWindow = "木头技术: 制作窗户入门",
-    ItemName_ImprovisedGlass.IGMagazineCars = "精密的汽车窗户熔炼技术",
+    ItemName_ImprovisedGlass.IGMagazineGlass = "熔炼杂志: 勤杂工厨房角落的窑炉",
+    ItemName_ImprovisedGlass.IGMagazineWindow = "木工杂志: 窗户中的裸照",
+    ItemName_ImprovisedGlass.IGMagazineCars = "汽车杂志: 精密车窗和工艺",
 }
