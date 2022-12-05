@@ -74,7 +74,7 @@ module ImprovisedGlass {
     }
 
     recipe IGMakeWindow05 {
-        keep BlowTorch=6,
+        keep BlowTorch,
         keep [Recipe.GetItemTypes.WeldingMask],
         WeldingRods=4,
         MetalBar=2,
