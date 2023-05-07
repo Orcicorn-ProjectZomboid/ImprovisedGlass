@@ -1,0 +1,46 @@
+Recipe_IT = {
+    /* Make Glass Recipes */
+    Recipe_IGPrepareGlassShards = "Preparare i vetri rotti per la fusione",
+    Recipe_IGUnprepareGlassShards = "Rimuovere i vetri rotti dalla teglia",
+    Recipe_IGRemoveGlassPane = "Estrarre la lastra di vetro",
+
+    /* Smash Glass Recipes */
+    Recipe_IGSmashGlassJar = "Frantuma in vetri rotti",
+    Recipe_IGSmashGlassPane = "Frantuma in vetri rotti",
+    Recipe_IGSmashWindshield = "Frantuma in vetri rotti",
+    Recipe_IGSmashWindows = "Frantuma in vetri rotti",
+
+    /* Window Recipes */
+    Recipe_IGMakeWindow01 = "Costruire una finestra di legno",
+    Recipe_IGMakeWindow02 = "Costruire una finestra bianca laccata",
+    Recipe_IGMakeWindow03 = "Costruire una finestra laccata",
+    Recipe_IGMakeWindow04 = "Costruire una finestra bianca",
+    Recipe_IGMakeWindow05 = "Costruire una finestra cromata",
+    Recipe_IGMakeWindow06 = "Costruire una finestra scorrevole",
+
+    /* Window Disassembly Recipes */
+    Recipe_IGDisassembleWindow01 = "Smantellare una finestra di legno",
+    Recipe_IGDisassembleWindow02 = "Smantellare una finestra bianca laccata",
+    Recipe_IGDisassembleWindow03 = "Smantellare una finestra laccata",
+    Recipe_IGDisassembleWindow04 = "Smantellare una finestra bianca",
+    Recipe_IGDisassembleWindow05 = "Smantellare una finestra cromata",
+    Recipe_IGDisassembleWindow06 = "Smantellare una finestra scorrevole",
+
+    /* Vehicle: Standard Recipes */
+    Recipe_IGWindshield1 = "Costruire un parabrezza modello Standard",
+    Recipe_IGRearWindshield1 = "Costruire un parabrezza posteriore modello Standard",
+    Recipe_IGFrontWindow1 = "Costurire un finestrino anteriore modello Standard",
+    Recipe_IGRearWindow1 = "Costurire un finestrino posteriore modello Standard",
+
+    /* Vehicle: Heavy-Duty Recipes */
+    Recipe_IGWindshield2 = "Costruire un parabrezza modello Robusto",
+    Recipe_IGRearWindshield2 = "Costruire un parabrezza posteriore modello Robusto",
+    Recipe_IGFrontWindow2 = "Costurire un finestrino anteriore modello Robusto",
+    Recipe_IGRearWindow2 = "Costurire un finestrino posteriore modello Robusto",
+
+    /* Vehicle: Sport Recipes */
+    Recipe_IGWindshield3 = "Costruire un parabrezza modello Sport",
+    Recipe_IGRearWindshield3 = "Costruire un parabrezza posteriore modello Sport",
+    Recipe_IGFrontWindow3 = "Costurire un finestrino anteriore modello Sport",
+    Recipe_IGRearWindow3 = "Costurire un finestrino posteriore modello Sport",
+}

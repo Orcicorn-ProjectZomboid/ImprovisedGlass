@@ -1,0 +1,11 @@
+ItemName_IT = {
+    /* Glass Items */
+    ItemName_ImprovisedGlass.PanWithGlassShards = "Teglia con vetri rotti",
+    ItemName_ImprovisedGlass.PanWithGlassPane = "Teglia con Pannello di vetro",
+    ItemName_ImprovisedGlass.GlassPane = "Pannello di vetro"
+
+    /* Magazines */
+    ItemName_ImprovisedGlass.IGMagazineGlass = "L'angolo del tuttofare - Forni per cucine",
+    ItemName_ImprovisedGlass.IGMagazineWindow = "Bricolage: Topless alla finestra",
+    ItemName_ImprovisedGlass.IGMagazineCars = "Serramenti di precisione per veicoli",
+}
